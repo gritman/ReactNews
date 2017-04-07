@@ -107,13 +107,13 @@ class PCHeader extends React.Component {
       <div>
           <Row>
             <Col span={2}></Col>
-            <Col span={3}>
+            <Col span={4}>
               <a href="/" class="logo">
                 <img src="./src/images/logo.png" alt="logo" />
                 <span>ReactNews</span>
               </a>
             </Col>
-            <Col span={17}>
+            <Col span={16}>
               <Menu mode="horizontal" onClick={this.handleClick.bind(this)} selectedKeys={[this.state.current]}>
                 <Menu.Item key="top">
                   <Icon type="appstore" />头条
